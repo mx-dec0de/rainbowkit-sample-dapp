@@ -25,9 +25,9 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <ConnectButton chainStatus="name" />
-        <p>A => {address ? address : 'Not connected'}</p>
+        <p>A = {address ? address : 'Not connected'}</p>
 
-        <p>C => {chainId ? chainId : 'Not connected'}</p>
+        <p>C = {chainId ? chainId : 'Not connected'}</p>
       </main>
     </div>
   );
